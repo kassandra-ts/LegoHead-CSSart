@@ -1,0 +1,189 @@
+/* create a clear canva */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* background gradient */
+body {
+  background: #AEF3FF;
+}
+
+/* create the canvas */
+.box-canvas{
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 600px;
+  height:600px;
+}
+
+.circle {
+  /* center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* size */
+  height: 425px;
+  width: 425px;
+  /* color */
+  opacity: .5;
+  background-color: black;
+  /* add the curve to shape circle */
+  border-radius: 50%;
+}
+
+.lego {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 225px;
+  width: 245px;
+  background-color: #FFD100;
+  border-radius: 33%;
+  /* bring the item forward */
+  z-index: 1;
+}
+
+.lego-top {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  background-color: #FFD100;
+  border-radius: 35%;
+  z-index: 1;
+}
+
+.neck {
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 165px;
+  background-color: #FFD100;
+  border-radius: 22%;
+  z-index: -1;
+}
+
+.lego-top-shadow {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity:.8;
+  height: 10px;
+  width: 60px;
+  background-color: black;
+  border-radius: 95%;
+  z-index: -1;
+}
+
+.curve-onTop {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity:.8;
+  width: 132px;
+  height: 100px;
+  border: solid 2px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 69px 50%/50px;
+}
+
+.eye-1{
+  position: absolute;
+  top: 1110%;
+  left: -15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 47px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.eye-2{
+  position: absolute;
+  top: 1110%;
+  left: 115%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 47px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.eye-glare1{
+  position: absolute;
+  top: 1000%;
+  left: 125%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 13px;
+  width: 9px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.eye-glare2{
+  position: absolute;
+  top: 1000%;
+  left: -5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 13px;
+  width: 9px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.smile {
+  position: absolute;
+  top: 1115%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity:.8;
+  width: 160px;
+  height: 170px;
+  border: solid 8px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 90px 50%/90px;
+  z-index: -1;
+}
+
+.neck-line {
+  position: absolute;
+  top: 2160%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity:.9;
+  width: 195px;
+  height: 100px;
+  border: solid 2px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 83px 40%/40px;
+}
